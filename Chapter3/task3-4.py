@@ -29,3 +29,16 @@ Give another number: 9
 Both numbers are odd.
 ###########
 '''
+
+
+num = int(input("Give a number: "))
+num2 =  int(input("Give another number: "))
+
+
+if (num %2 == 0 and num2 %2 == 0):
+    print("Both numbers are even.")
+elif (num %2 != 0 and num2 %2 != 0):
+    print("Both numbers are odd.")
+elif num %2 == 0 or num2 %2 == 0:
+    print("One of the numbers is even.")
+
