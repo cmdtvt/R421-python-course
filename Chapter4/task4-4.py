@@ -110,6 +110,7 @@ while True:
     elif select == 4:
         result = num1 / num2
     elif select == 5:
+        print("Current numbers: "+str(num1)+" "+str(num2))
         print("Change numbers")
         num1 = int(input("Give the first number: "))
         num2 = int(input("Give the second number: "))
